@@ -1,13 +1,23 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: sans-serif;
-}
-
-main {
-    height: 785px;
-    background: url("../images/bg.jpg") center;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: sans-serif;
+        color: #fff;
+    }
+    
+    main {
+        height: 785px;
+        background: url("../images/netflix-library.jpg");
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    main h1 {
+        font-size: 64px;
+        max-width: 520px;
+        text-align: center;
+    }
