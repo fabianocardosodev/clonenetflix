@@ -1,23 +1,37 @@
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    
-    body {
-        font-family: sans-serif;
-        color: #fff;
-    }
-    
-    main {
-        height: 785px;
-        background: url("../images/netflix-library.jpg");
-        align-items: center;
-        display: flex;
-        justify-content: center;
-    }
-    
-    main h1 {
-        font-size: 64px;
-        max-width: 520px;
-        text-align: center;
-    }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: #fff;
+}
+
+main {
+    height: 785px;
+    background: url("../images/netflix-library.jpg");
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.main-child {
+    z-index: 1;
+}
+
+main h1 {
+    font-size: 64px;
+    max-width: 510px;
+}
+
+.gradient {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
